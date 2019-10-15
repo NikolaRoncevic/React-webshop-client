@@ -1,0 +1,12 @@
+.slika {
+    background-color: white;
+    padding: 8px;
+    height: 150px;
+    width : 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Logo img {
+    height: 100%;
+}

@@ -1,0 +1,20 @@
+.form{
+    display : flex;
+    height: 30px;
+    
+}
+.text{
+    width : 200px;
+    height : 25px;
+    padding : 1px;
+    margin: 2px;
+}
+.submit{
+    width: 70px;
+    height : 31px;
+    padding : 1px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: whitesmoke
+}
+

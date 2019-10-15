@@ -1,0 +1,18 @@
+.noDiscount { 
+    font-weight: bold;
+    color : green;
+    
+}
+.oldPrice { 
+    font-weight: bold;
+    text-decoration: line-through;
+    color: gray;
+
+}
+.newPrice {
+    font-weight : bold;
+    color : green;
+}
+.wrapper{
+    margin-left: 10px;
+}

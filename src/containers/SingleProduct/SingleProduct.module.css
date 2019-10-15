@@ -1,0 +1,23 @@
+.singleProductWrapper{
+    
+    border : 1px solid brown;
+    padding : 15px;
+
+    margin: 150px 15px 15px 15px;
+}
+.content {
+    margin-top: 15px;
+    display : flex;
+    flex-flow: row;
+}
+.title{
+    padding-left: 20px;
+    font-family: 'Courier New';
+    border-bottom: 1px  solid brown;
+}
+.detailsTitle {
+    margin-top : 25px;
+    padding-left : 10px;
+    font-family: 'Courier New';
+    border-bottom:  1px solid brown;
+}
