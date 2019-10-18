@@ -1,0 +1,9 @@
+.contentWrapper{
+    padding-top: 50px;
+    max-width: 1400px;
+    max-height: 600px;
+    margin: 20px auto;
+}
+.awsCustom{
+    --slider-height-percentage: 40% !important;
+}

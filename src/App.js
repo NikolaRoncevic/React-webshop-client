@@ -1,8 +1,9 @@
 import React,{Component} from 'react';
 import { Route, Switch } from 'react-router-dom'
+
 import SingleProduct from './containers/SingleProduct/SingleProduct'
 import Layout from './hoc/Layout/Layout'
-
+import HomePage from './containers/HomePage/HomePage';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Layout>
           <Switch>
             <Route path="/product/:id" component={SingleProduct} />
+            <Route part="/" exact component={HomePage}/>
           </Switch>
         </Layout>
       </div>
