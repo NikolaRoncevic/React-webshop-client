@@ -1,0 +1,9 @@
+.productWrapper {
+    margin: 5px;
+    box-shadow: 2px 2px 2px 1px grey;
+}
+
+.title{
+    text-align: center;
+    font-weight: 400;
+}

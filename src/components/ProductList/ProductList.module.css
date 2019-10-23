@@ -1,0 +1,19 @@
+.productListContentWrapper {
+    border: 1px solid brown;
+    margin-top: 15px;
+    display : flex;
+    flex-flow: column;
+    box-shadow : 3px 3px 1.5px grey;
+}
+.title{
+    padding-left: 20px;
+    margin: 40px auto;
+    font-family: 'Courier New';
+    border-bottom: 1px  solid brown;
+}
+.products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}

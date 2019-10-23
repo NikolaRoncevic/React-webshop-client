@@ -26,7 +26,7 @@ class SingleProduct extends Component {
                             <h2 className={styles.detailsTitle}>Details</h2>
                             <ProductDetail label="Producer" details={this.props.product.producer} />
                             <ProductDetail label="Processor" details={this.props.product.processor} />
-                            <ProductDetail label="Graphic card" details={this.props.product.processor} />
+                            <ProductDetail label="Graphic card" details={this.props.product.graphicCard} />
                             <ProductDetail label="Ram memory" details={this.props.product.ramMemory} />
                             <ProductDetail label="Screen size" details={this.props.product.screenSize} />
                             <Price price={this.props.product.price} discount={this.props.product.discounted.discountPrecentage} />

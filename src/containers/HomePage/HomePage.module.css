@@ -7,3 +7,9 @@
 .awsCustom{
     --slider-height-percentage: 40% !important;
 }
+
+.productLists {
+    margin : 40px;
+    display: flex;
+    flex-direction: column;
+}
