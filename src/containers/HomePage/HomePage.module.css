@@ -1,8 +1,9 @@
 .contentWrapper{
-    padding-top: 50px;
+    
     max-width: 1400px;
-    max-height: 600px;
+    padding: 10px 10px 10px 10px;
     margin: 20px auto;
+    
 }
 .awsCustom{
     --slider-height-percentage: 40% !important;
@@ -12,4 +13,18 @@
     margin : 40px;
     display: flex;
     flex-direction: column;
+}
+.homePageWrapper{
+    background-color: #EEEEEE;
+    display : flex;
+    margin: 20px auto;
+    max-width: 1400px;
+    justify-content: flex-start;
+    height: inherit;
+}
+.adds{
+    display:inline-block;
+    background-color: lemonchiffon;
+    width: 150px;
+    background-image: url("https://st4.depositphotos.com/10227318/31145/i/1600/depositphotos_311455840-stock-photo-background-from-vertical-old-wooden.jpg");
 }

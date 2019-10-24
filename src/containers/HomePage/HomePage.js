@@ -8,6 +8,8 @@ import AwesomeSlider from 'react-awesome-slider';
 import AwsSliderStyles from 'react-awesome-slider/src/styles';
 import ProductList from './../../components/ProductList/ProductList';
 import * as actions from './../../store/actions/homePage';
+import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
+import QuckSearch from './../../components/Navigation/QuickSearch/QuickSearch'
 
 
 
@@ -30,13 +32,20 @@ class HomePage extends Component {
         if (this.props.productLists[0] != undefined) {
             return (
 
-                <div className={styles.contentWrapper}>
-                    {slider}
-                    <div className={styles.productLists}>
-                        <ProductList productList={this.props.productLists[0]}></ProductList>
-                        <ProductList productList={this.props.productLists[1]}></ProductList>
+                <div className={styles.homePageWrapper}>
+                    <div className={styles.adds}>
+                        
                     </div>
-
+                    <div className={styles.contentWrapper}>
+                        {slider}
+                        <div className={styles.productLists}>
+                            <ProductList productList={this.props.productLists[0]}></ProductList>
+                            <ProductList productList={this.props.productLists[1]}></ProductList>
+                        </div>
+                    </div>
+                    <div className={styles.adds}>
+                        <QuckSearch />
+                    </div>
                 </div>
             );
         }

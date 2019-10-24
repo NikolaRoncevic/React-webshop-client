@@ -1,0 +1,26 @@
+.forma{
+    font-family: 'Courier New';
+    margin-top:10px;
+    background-color : #EEE;
+    display: inline-block;
+    border: 2px solid brown;
+    text-align: center;
+}
+.input {
+    margin: 5px;
+    max-width: 100px;
+    height: 20px;
+    border-radius: 10px;
+}
+.submit {
+    margin: 5px;
+    max-width: 100px;
+    height: 20px;
+}
+.label {
+    font-family: 'Courier New';
+}
+
+input:focus{
+    outline: none;
+}

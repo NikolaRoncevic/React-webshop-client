@@ -4,7 +4,7 @@ import styles from './Price.module.css';
 
 const Price = (props) => {
     let ret = (
-        <span>Price:<p className={styles.noDiscount}> {props.price}</p></span>
+        <span>Price:<span className={styles.noDiscount}> {props.price}</span></span>
     );
     console.log(props.discount);
     if (props.discount !== undefined) {
@@ -14,7 +14,7 @@ const Price = (props) => {
                     Old price:<span className={styles.oldPrice}> {props.price}</span>
                 </p>
                 <p>
-                    New price:<span className={styles.newPrice}> {props.price * ((100 - props.discount) / 100)}</span>
+                    New price:<span className={styles.newPrice}> {props.price * ((100 - props.discount.discountPrecentage) / 100)}</span>
                 </p>
             </div>
         );

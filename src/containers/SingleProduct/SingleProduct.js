@@ -29,7 +29,7 @@ class SingleProduct extends Component {
                             <ProductDetail label="Graphic card" details={this.props.product.graphicCard} />
                             <ProductDetail label="Ram memory" details={this.props.product.ramMemory} />
                             <ProductDetail label="Screen size" details={this.props.product.screenSize} />
-                            <Price price={this.props.product.price} discount={this.props.product.discounted.discountPrecentage} />
+                            <Price price={this.props.product.price} discount={this.props.product.discounted} />
                             <form>
                                 <input id="ammount" type="text" placeholder="Ammout"></input>
                                 <input type="submit" value="Add to cart"></input>
