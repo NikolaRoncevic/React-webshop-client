@@ -12,6 +12,7 @@ import * as serviceWorker from './serviceWorker';
 
 import {singleProductReducer} from  './store/reducers/singleProduct';
 import {homePageReducer} from './store/reducers/homePage';
+import {searchPageReducer} from './store/reducers/searchPage';
 
 
 
@@ -21,7 +22,8 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const rootReducer = combineReducers({
     product : singleProductReducer,
-    homePage : homePageReducer
+    homePage : homePageReducer,
+    search : searchPageReducer
 })
 
 const store = createStore(rootReducer,composeEnhancers(

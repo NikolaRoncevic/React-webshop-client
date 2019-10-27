@@ -1,14 +1,17 @@
 .Toolbar {
     height: 80px;
-    top : 30px;
-    left : 0;
+    
     background-color:#b5651d;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:20px;
     box-sizing: border-box;
-    z-index: 90; 
+    z-index: 90;
+    position : fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .Toolbar nav{

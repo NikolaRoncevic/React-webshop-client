@@ -8,7 +8,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import AwsSliderStyles from 'react-awesome-slider/src/styles';
 import ProductList from './../../components/ProductList/ProductList';
 import * as actions from './../../store/actions/homePage';
-import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
+//import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
 import QuckSearch from './../../components/Navigation/QuickSearch/QuickSearch'
 
 
@@ -29,7 +29,7 @@ class HomePage extends Component {
                 <div data-src="http://localhost:3000/images/Slider3.jpg" />
             </AwesomeSlider>
         );
-        if (this.props.productLists[0] != undefined) {
+        if (this.props.productLists[0] !== undefined) {
             return (
 
                 <div className={styles.homePageWrapper}>

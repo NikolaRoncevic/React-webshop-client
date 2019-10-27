@@ -1,31 +1,15 @@
-.contentWrapper{
-    
-    max-width: 1400px;
-    padding: 10px 10px 10px 10px;
-    
-    
-}
-.awsCustom{
-    --slider-height-percentage: 40% !important;
-}
-
-.productLists {
-    margin : 40px;
-    display: flex;
-    flex-direction: column;
-}
-.homePageWrapper{
+.searchPageWrapper{
     display : flex;
     margin: 80px auto;
     max-width: 1400px;
     height: inherit;
     padding-top : 80px;
     position: absolute;
-    top: 75%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
 .adds{
     display:inline-block;
     background-color: lemonchiffon;

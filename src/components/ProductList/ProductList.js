@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Auxiliary from './../../hoc/Auxiliary/Auxiliary';
+//import Auxiliary from './../../hoc/Auxiliary/Auxiliary';
 import Product from './Product/Product'
 
 import styles from './ProductList.module.css';
