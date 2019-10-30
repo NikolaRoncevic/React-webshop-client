@@ -6,6 +6,8 @@ import * as actions from './../../store/actions/searchPage'
 
 import styles from './SearchPage.module.css'
 
+import ProductList from './../../components/ProductList/ProductList';
+
 class SearchPage extends Component {
 
     componentDidMount() {
@@ -35,18 +37,27 @@ class SearchPage extends Component {
     }
 
     render() {
-        return (
-            <div className={styles.searchPageWrapper}>
-                <div className={styles.adds}></div>
-                <p>HEHEHEHHEHE</p>
-                <div className={styles.adds}></div>
-            </div>
-        );
+       
+        if(this.props.listOfProducts){
+            console.log(this.props.listOfProducts)
+            return (
+                <div className={styles.searchPageWrapper}>
+                    <div className={styles.adds}></div>
+                    <ProductList productList = {this.props.listOfProducts}/>
+                    <div className={styles.adds}></div>
+                </div>
+            );
+        }else{
+            return(
+                <div></div>
+            );
+        }
+        
+        
     }
 }
 
 function mapStateToProps(state) {
-    console.log(state.search)
     return {
         listOfProducts: state.search.listOfProducts,
         producer: state.search.producer,

@@ -1,9 +1,14 @@
 .singleProductWrapper{
     
     border : 1px solid brown;
-    padding : 15px;
+    padding : 50px 150px 50px 150px;
 
-    margin: 150px 15px 15px 15px;
+    
+    display: inline-block;
+    margin: 0px auto;
+    margin-top :150px;
+    max-width: 1500px;
+
 }
 .content {
     margin-top: 15px;

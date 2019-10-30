@@ -10,6 +10,7 @@ import ProductList from './../../components/ProductList/ProductList';
 import * as actions from './../../store/actions/homePage';
 //import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
 import QuckSearch from './../../components/Navigation/QuickSearch/QuickSearch'
+import { thisExpression } from '@babel/types';
 
 
 
@@ -39,8 +40,8 @@ class HomePage extends Component {
                     <div className={styles.contentWrapper}>
                         {slider}
                         <div className={styles.productLists}>
-                            <ProductList productList={this.props.productLists[0]}></ProductList>
-                            <ProductList productList={this.props.productLists[1]}></ProductList>
+                            <ProductList productList={this.props.productLists[0].phones} title={this.props.productLists[0].title}></ProductList>
+                            <ProductList productList={this.props.productLists[1].phones} title={this.props.productLists[1].title}></ProductList>
                         </div>
                     </div>
                     <div className={styles.adds}>

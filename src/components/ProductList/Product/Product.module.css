@@ -2,6 +2,7 @@
     margin: 5px;
     box-shadow: 2px 2px 2px 1px grey;
     text-align: center;
+    min-width: 240px;
 }
 
 .title{

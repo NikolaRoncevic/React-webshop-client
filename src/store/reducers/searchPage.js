@@ -2,7 +2,7 @@ import * as actionTypes from './../actions/actionTypes';
 
 
 const intialState = {
-    listOfProducts: [],
+    listOfProducts: null,
     producer: '',
     ramMemory: '',
     processor: '',

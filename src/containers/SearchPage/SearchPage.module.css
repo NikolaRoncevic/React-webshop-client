@@ -1,18 +1,13 @@
 .searchPageWrapper{
     display : flex;
     margin: 80px auto;
-    max-width: 1400px;
-    height: inherit;
-    padding-top : 80px;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    max-width: 780px;
+    
 }
 
 .adds{
     display:inline-block;
     background-color: lemonchiffon;
-    width: 150px;
+    width: 250px;
     background-image: url("https://st4.depositphotos.com/10227318/31145/i/1600/depositphotos_311455840-stock-photo-background-from-vertical-old-wooden.jpg");
 }

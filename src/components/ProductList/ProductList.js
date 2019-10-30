@@ -7,9 +7,9 @@ import styles from './ProductList.module.css';
 
 const ProductList = (props) => (
             <div className={styles.productListContentWrapper}>
-                <h1 className={styles.title}>{props.productList.title}</h1>
+                <h1 className={styles.title}>{props.title}</h1>
                 <div className = {styles.products}>
-                    {props.productList.phones.map(phone => (
+                    {props.productList.map(phone => (
                         <Product key={phone._id} phone = {phone} />
                     ))}
                 </div>

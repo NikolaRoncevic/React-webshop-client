@@ -6,7 +6,6 @@ const Price = (props) => {
     let ret = (
         <span>Price:<span className={styles.noDiscount}> {props.price}</span></span>
     );
-    console.log(props.discount);
     if (props.discount !== undefined) {
         ret = (
             <div className={styles.wrapper}>
